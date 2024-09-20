@@ -6,12 +6,16 @@
      --header-btn-color:#3A68B8;
      --hero-yuxari-reng:#08101e; 
      --hero-asagi-reng: #09111f;
+     --awards-container:#020b18;
+     --award-card:#111926;
 
 }
 
 *{margin: 0;
 padding: 0;
+
 }
+
 
 
 body {
@@ -45,7 +49,9 @@ header nav{
 
 header nav a {
     margin-right:30px;
+    text-decoration: none;
 }
+
 
 
 header i {
@@ -148,7 +154,7 @@ a{
 }
 
 .ai-right article {
-    opacity: 0.7;
+    opacity: .7;
     margin-bottom: 50px;
 }
 
@@ -177,13 +183,76 @@ a{
 
 .solution-left p {
     margin-top: 20px;
-    opacity: 0.7; 
+    opacity: .7;
 } 
 
 /* solution section end */
 
+/* awards section start */
+.awards {
+    background-color: var(--awards-container);
+    
+    
+}
+
+.award {
+    background-color: var(--award-card);
+    color:#fff;
+    border-radius: 10px;
+    /* width: 17%; */
+    /* min-width: 200px; */
+    padding: 10px;
+    color: rgba(255,255,255,.7);
+    transition: 1.2s linear;
+    margin-top: 30px;
+}
 
 
+.award h4 {
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.award img {
+    display: block;
+    margin: 20px auto;
+}
+
+.award img {
+    margin-top: 50px;
+}
+
+.award article {
+    text-align: center;
+    font-size: 12px;
+}
+
+.award:hover {
+    box-shadow: 17px 10px 39px 0px rgba(255,255,255,0.53);
+
+}
+
+
+/* awards section end */
+
+
+/* footer section start */
+
+.footer-center a {
+    display: block;
+}
+
+.footer {
+    color:#fff;
+    background-color: #020b18;
+}
+
+.footer a {
+    color:#fff;
+    text-decoration: none;
+}
+/* footer section end */
 
 
 /* Mobile First Approach */
